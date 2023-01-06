@@ -141,3 +141,9 @@
   font-size: 17px;
   border-radius: 10px;
 }
+
+a {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}

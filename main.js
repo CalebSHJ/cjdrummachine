@@ -46,6 +46,8 @@ $(document).keydown(function(e){
   }
 });
 
+
+
 // drum kit change
 function kitChange(id){ 
   let displayText =  $(id).text();
@@ -87,7 +89,7 @@ function kitChange(id){
 $('audio').attr('volume', '0.2');
 $('.volume').change(function(){
   let volumelevel = parseFloat(this.value / 10);
-  console.log(volumelevel);
+  // console.log(volumelevel);
   $('.clip').attr('volume', volumelevel);
 })
 
